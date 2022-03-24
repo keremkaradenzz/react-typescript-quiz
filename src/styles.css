@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darksalmon;
+  color: #ffff;
+  font-size: 18px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-start {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: 0;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.btn-start:hover {
+  background-color: burlywood;
+  color: black;
+}
